@@ -1,10 +1,10 @@
-export function setupCounter(element, num) {
+export function setupCounter(element) {
    
    let counter = 0
     
     const setCounter = (count) => {
     counter = count
-    
+    element.innerHTML == `count is ${counter}`
     if (counter == 1) {
       element.innerHTML = `Presionamelo ${counter} vez`
     } else if (counter > 9) {
@@ -14,6 +14,5 @@ export function setupCounter(element, num) {
     }
   }
   element.addEventListener('click', () => setCounter(counter + 1))
-  num = counter
   setCounter(0)
 }

@@ -18,9 +18,6 @@ document.querySelector('#app').innerHTML = `
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <p id="countNum" class="read-the-docs">
-      ${setupCounter(Das)}
-    </p>
   </div>
 `
 

@@ -1,7 +1,7 @@
+export let counter = 0
+
 export function setupCounter(element) {
    
-   let counter = 0
-    
     const setCounter = (count) => {
     counter = count
     element.innerHTML == `count is ${counter}`
